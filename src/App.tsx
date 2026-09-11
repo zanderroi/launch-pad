@@ -548,7 +548,7 @@ export default function App() {
       {/* ── Footer ── */}
       <footer className="bg-[#0f2b5c] text-center py-3 px-4">
         <p className="text-[10px] text-blue-300 tracking-wider uppercase font-medium">
-          Enterprise-Based Training & Education Office <br> </br>
+          Enterprise-Based Training & Education Office <br />
           Information and Communications Technology Office
         </p>
       </footer>
