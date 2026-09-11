@@ -352,7 +352,7 @@ export default function App() {
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0f2b5c] leading-tight tracking-tight">
             Powering the Future of<br />
-            <span className="text-[#2563eb]">Enterprise Training</span>
+            <span className="text-[#2563eb]">Enterprise-Based Training & Education (EBET)</span>
           </h1>
           <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-md mx-auto leading-relaxed">
             Tap together to activate the <strong className="text-[#0f2b5c]">EBET One-Stop Shop Web Portal</strong> platform nationwide.
