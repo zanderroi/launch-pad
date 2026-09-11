@@ -291,43 +291,43 @@ export default function App() {
       ))}
 
       {/* ── Header ── */}
-      <header className="bg-[#0f2b5c] text-white px-4 py-3 flex items-center justify-between gap-3 shadow-lg relative z-10">
-        <div className="flex items-center gap-3 min-w-0">
-          <div className="flex items-center gap-1.5 flex-shrink-0 rounded-lg bg-white px-1.5 py-1">
-            <img
-              src="/logos/tesda.png"
-              alt="TESDA"
-              className="h-10 w-10 object-contain"
-            />
-            <img
-              src="/logos/bagong-pilipinas.png"
-              alt="Bagong Pilipinas"
-              className="h-10 w-10 object-contain"
-            />
+      <header className="bg-[#0f2b5c] text-white px-3 py-2.5 sm:px-4 sm:py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 shadow-lg relative z-10">
+        <div className="flex items-center justify-between gap-3 sm:contents">
+          <div className="flex items-center gap-2 min-w-0 order-1">
+            <div className="flex items-center gap-1.5 flex-shrink-0 rounded-lg bg-white px-1.5 py-1">
+              <img
+                src="/logos/tesda.png"
+                alt="TESDA"
+                className="h-9 w-9 sm:h-10 sm:w-10 object-contain"
+              />
+              <img
+                src="/logos/bagong-pilipinas.png"
+                alt="Bagong Pilipinas"
+                className="h-9 w-9 sm:h-10 sm:w-10 object-contain"
+              />
+            </div>
+            <span className="text-[9px] sm:text-[10px] font-medium text-blue-200 uppercase tracking-[0.12em] sm:tracking-widest leading-tight max-w-[9rem] sm:max-w-[18rem]">
+              Technical Education and Skills Development Authority
+            </span>
           </div>
-          <div className="flex flex-col min-w-0">
-          <span className="text-[10px] font-medium text-blue-200 uppercase tracking-widest leading-tight">
-            Technical Education and Skills Development Authority
-          </span>
-          <button
-            onClick={handleBadgeTap}
-            className="mt-1 inline-flex items-center gap-1.5 bg-[#2563eb] hover:bg-blue-500 transition-colors text-white text-xs font-semibold px-2.5 py-1 rounded-full cursor-pointer select-none"
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] inline-block" />
-            EBET OSS Web Portal Soft Launch
-          </button>
+          <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-2.5 py-1.5 order-3 sm:order-3">
+            <span className="participant-dot w-2 h-2 rounded-full bg-green-400 flex-shrink-0" />
+            <span className="text-xs font-semibold tabular-nums">
+              <span className="text-green-300">{participants}</span>
+              <span className="text-blue-200 ml-1 hidden sm:inline">Participants Online</span>
+              <span className="text-blue-200 ml-1 sm:hidden">Online</span>
+            </span>
+            <Users className="w-3.5 h-3.5 text-blue-300" />
           </div>
         </div>
 
-        <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-3 py-2">
-          <span className="participant-dot w-2 h-2 rounded-full bg-green-400 flex-shrink-0" />
-          <span className="text-xs font-semibold tabular-nums">
-            <span className="text-green-300">{participants}</span>
-            <span className="text-blue-200 ml-1 hidden sm:inline">Participants Online</span>
-            <span className="text-blue-200 ml-1 sm:hidden">Online</span>
-          </span>
-          <Users className="w-3.5 h-3.5 text-blue-300" />
-        </div>
+        <button
+          onClick={handleBadgeTap}
+          className="self-center inline-flex items-center gap-1.5 bg-[#2563eb] hover:bg-blue-500 transition-colors text-white text-[11px] sm:text-xs font-semibold px-3 py-1 rounded-full cursor-pointer select-none text-center order-2"
+        >
+          <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] inline-block" />
+          EBET OSS Web Portal Soft Launch
+        </button>
       </header>
 
       {/* ── Hero ── */}
@@ -548,7 +548,8 @@ export default function App() {
       {/* ── Footer ── */}
       <footer className="bg-[#0f2b5c] text-center py-3 px-4">
         <p className="text-[10px] text-blue-300 tracking-wider uppercase font-medium">
-          EBET OSS Portal — TESDA Enterprise Training Platform
+          Enterprise-Based Training & Education Office <br> </br>
+          Information and Communications Technology Office
         </p>
       </footer>
 
