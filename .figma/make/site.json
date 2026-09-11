@@ -1,0 +1,10 @@
+{
+  "description": "Engage participants in a collaborative real-time launch event for the EBET OSS Portal, featuring a dynamic progress bar and celebratory animations.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
