@@ -81,6 +81,9 @@
 *.woff2              filter=lfs diff=lfs merge=lfs -text
 *.eot                filter=lfs diff=lfs merge=lfs -text
 
+# Small website logos are stored directly in Git rather than Git LFS.
+public/logos/*.png   -filter -diff -merge
+
 # ---------------------------------------------------------------------------
 # Data & Machine Learning
 # ---------------------------------------------------------------------------

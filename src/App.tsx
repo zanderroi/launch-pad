@@ -291,8 +291,21 @@ export default function App() {
       ))}
 
       {/* ── Header ── */}
-      <header className="bg-[#0f2b5c] text-white px-4 py-3 flex items-center justify-between shadow-lg relative z-10">
-        <div className="flex flex-col">
+      <header className="bg-[#0f2b5c] text-white px-4 py-3 flex items-center justify-between gap-3 shadow-lg relative z-10">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className="flex items-center gap-1.5 flex-shrink-0 rounded-lg bg-white px-1.5 py-1">
+            <img
+              src="/logos/tesda.png"
+              alt="TESDA"
+              className="h-10 w-10 object-contain"
+            />
+            <img
+              src="/logos/bagong-pilipinas.png"
+              alt="Bagong Pilipinas"
+              className="h-10 w-10 object-contain"
+            />
+          </div>
+          <div className="flex flex-col min-w-0">
           <span className="text-[10px] font-medium text-blue-200 uppercase tracking-widest leading-tight">
             Technical Education and Skills Development Authority
           </span>
@@ -303,6 +316,7 @@ export default function App() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] inline-block" />
             EBET OSS Web Portal Soft Launch
           </button>
+          </div>
         </div>
 
         <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-3 py-2">
