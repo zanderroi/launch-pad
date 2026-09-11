@@ -1,5 +1,8 @@
 {
   "description": "Engage participants in a collaborative real-time launch event for the EBET OSS Portal, featuring a dynamic progress bar and celebratory animations.",
+  "icons": {
+    "icon": "/logos/tesda.png"
+  },
   "robots": {
     "index": false
   },
