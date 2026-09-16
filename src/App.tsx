@@ -326,7 +326,7 @@ export default function App() {
           className="self-center inline-flex items-center gap-1.5 bg-[#2563eb] hover:bg-blue-500 transition-colors text-white text-[11px] sm:text-xs font-semibold px-3 py-1 rounded-full cursor-pointer select-none text-center order-2"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-[#38bdf8] inline-block" />
-          EBET OSS Web Portal Soft Launch
+          EBET OSS Online Portal Soft Launch
         </button>
       </header>
 
@@ -355,7 +355,7 @@ export default function App() {
             <span className="text-[#2563eb]">Enterprise-Based Training & Education (EBET)</span>
           </h1>
           <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-md mx-auto leading-relaxed">
-            Tap together to activate the <strong className="text-[#0f2b5c]">EBET One-Stop Shop Web Portal</strong> platform nationwide.
+            Tap together to activate the <strong className="text-[#0f2b5c]">EBET One-Stop Shop Online Portal</strong> platform nationwide.
           </p>
         </div>
 
@@ -591,7 +591,7 @@ export default function App() {
                   Official Launch
                 </div>
                 <h2 className="text-xl font-black text-[#0f2b5c] leading-tight">
-                  EBET One-Stop Shop<br />Web Portal is
+                  EBET One-Stop Shop<br />Online Portal is
                   <br />
                   <span className="text-[#2563eb]">Officially Live!</span>
                 </h2>
