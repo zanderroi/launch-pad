@@ -41,7 +41,7 @@ const ExternalLink = ({ className }: { className?: string }) => (
 // ─── Constants ───────────────────────────────────────────────────────────────
 const TOTAL_CLICKS = 2000;
 const AUTO_INCREMENT_RATE = 4; // clicks/second baseline
-const REDIRECT_URL = "https://staging-gateway.tesda.gov.ph/ebet/";
+const REDIRECT_URL = "https://ebet-oss.vercel.app/ebet/";
 const REDIRECT_DELAY = 4000;
 const RESET_GESTURE_TAPS = 5;
 
